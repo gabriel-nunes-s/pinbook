@@ -1,0 +1,26 @@
+{
+  "name": "pinbook",
+  "version": "1.0.0",
+  "description": "An app for storing your memories",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pin",
+    "book"
+  ],
+  "author": "gabriel-nunes-s",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
